@@ -22,3 +22,11 @@ El **Sistema de Sorteo de Amigo Secreto** es una aplicación web sencilla que pe
 - **CSS3**
 - **JavaScript**
 
+
+## Cómo Ejecutar el Proyecto 🚀
+
+- Clona el repositorio:
+   ```bash
+   git clone https://github.com/Michell-Valenzuela30/Amigo-Secreto-Alura-latam.git
+
+- **Personas-Desarrolladores del Proyecto**: Michell Valenzuela
