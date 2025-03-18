@@ -19,6 +19,17 @@ function agregarAmigo() {
   // Limpiar el campo de entrada
   document.getElementById("amigo").value = "";
 }
-
+function actualizarListaAmigos(amigos) {
+  // Obtener el elemento de la lista
+  const lista = document.getElementById('listaAmigos');
+  
+  lista.innerHTML = "";
+  
+  for (let i = 0; i < amigos.length; i++) {
+    const li = document.createElement('li');
+    li.textContent = amigos[i];
+    lista.appendChild(li);
+  }
+}
 
 
